@@ -1,0 +1,27 @@
+.sectionContact {
+  height: 100vh;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.input {
+  border: none !important;
+  border-bottom: 1px solid #e6d8d8 !important;
+}
+
+input {
+  outline: none;
+}
+
+.inputs {
+  margin-block: 90px !important;
+}
+
+.btn {
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+.label {
+  color: #1abc9c;
+}

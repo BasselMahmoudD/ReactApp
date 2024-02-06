@@ -1,0 +1,42 @@
+.homeSection {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1abc9c;
+}
+
+.star {
+  position: relative;
+}
+
+.star::after {
+  content: "";
+  position: absolute;
+  top: 35%;
+  left: 150%;
+  width: 100px;
+  height: 4px;
+  background-color: #fff;
+}
+
+.icon {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+
+.icon::after {
+  content: "";
+  position: absolute;
+  top: 48%;
+  right: 150%;
+  width: 100px;
+  height: 4px;
+  background-color: #fff;
+}
+
+.content {
+  color: #fff;
+}
